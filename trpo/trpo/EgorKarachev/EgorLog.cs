@@ -3,7 +3,7 @@
 
 namespace EgorKarachev
 {
-    class EgorLog:LogAbstract, LogInterface
+    class EgorLog : LogAbstract, LogInterface
     {
         private static EgorLog i = null;
 

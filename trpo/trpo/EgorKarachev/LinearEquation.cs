@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lab4.EgorKarachev;
+using System;
 using System.Collections.Generic;
 
 namespace EgorKarachev
@@ -9,7 +10,7 @@ namespace EgorKarachev
         {
             if (a == 0)
             {
-                return null;
+                throw new EgorException("Ошибка: уравнение не существует.");
             }
 
             return new List<float> { -b / a };
